@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.header_content{
+    background-color: rgb(41, 40, 40);
+}
+.brand_logo{
+    max-height: 133px;
+    border-radius: 7px;
+
+}
+.brand_logo1{
+    max-height: 150px;
+}
+.brand_logo12{
+    max-height: 150px;
+    margin-left :50px;
+}
+.sp125_logo{
+    max-height: 133px;
+    float: right;
+    margin: 0 auto;
+    margin-right:10px;
+}
+
+.upper_main{
+    min-height: 5vh;
+    padding: 4px;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    background-color: rgb(37, 32, 32);
+}
+
+.navbar a{
+    color:rgb(172, 42, 42);
+    text-decoration: none;
+    padding:15px;
+    font-size: 25px;
+    
+}
+
+.navbar a:hover{
+    background-color: rgb(19, 10, 10);
+    color:aliceblue;
+}
+.navbar ul{
+
+    list-style: none;
+    overflow:hidden;
+    padding:0px;
+    margin:0px auto;
+
+}
+.navbar li{
+    float: left;
+}
+
+.first_portion{
+background-color: rgb(63, 63, 63);
+display: flex;
+flex-direction: row;
+}
+.first_photo{
+    min-height: 30vh;
+
+}
+
+.Console_photo{
+    height: 74vh;
+    
+    border-radius: 10px;
+    margin-left :100px ;
+}
+.first_text {
+    min-width: 50vw;
+    background-color: rgb(88, 46, 46);
+    height: 74vh;
+    font-size:50px;
+    margin-right: 100px;
+}
+
+.first_text p{
+    color:wheat;
+    text-align: center;
+    margin: 200px auto;
+}
+
+.second_portion{
+    background-color: rgb(63, 63, 63);
+    display: flex;
+    flex-direction: row;
+}
+.second_text1{
+    color:wheat;
+    text-align: center;
+    font-size:50px;
+    border:9px solid rgb(235, 73, 73);
+    padding:40px;
+    margin: 200px auto;
+    margin-top:260px;
+    background-color: rgb(28, 28, 28);
+    margin-left:250px;
+
+}
+.new1{
+    color:#fdfbfb82;
+}
+.new2{
+    color:#fdfbfb82;
+
+}
+.second_text2{
+    color:wheat;
+    font-size: 50px;
+    border:9px solid rgb(235, 73, 73);
+    padding: 40px;
+    margin:200px auto;
+    margin-top:260px;
+    background-color: rgb(28, 28, 28);
+    margin-right:300px;
+
+}
+
+
+.sp125_photo{
+    margin-top: 10px;
+    max-width: 25vw;
+    height: 100vh;
+    border-radius: 10px;
+    margin-left :100px ;
+    min-height: 30vh;
+    margin-bottom:20px;
+    background-color: rgb(63, 63, 63);
+}
+
+.third_text{
+    background-color: rgb(63, 63, 63);
+    color:rgb(181, 0, 0);
+    text-align: center;
+    font-size: 30px;
+}
+.third_one,.third_two{
+    background-color: rgb(18, 18, 18);
+}
+.third_photo{
+    background-color: rgb(63, 63, 63);
+}
